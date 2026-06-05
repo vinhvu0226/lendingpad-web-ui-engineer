@@ -1,0 +1,136 @@
+{
+  "records": [
+    {
+      "id": 1,
+      "name": "Alex Smith",
+      "accountId": "47302846375",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Sed euismod.",
+      "status": "open",
+      "rate": 70.00,
+      "balance": -270.00,
+      "deposit": 500.00,
+      "email": "alex.smith@example.com",
+      "phone": "+1 (555) 437-0284"
+    },
+    {
+      "id": 2,
+      "name": "Amadeus Mozart",
+      "accountId": "83621947502",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Sed euismod.",
+      "status": "paid",
+      "rate": 70.00,
+      "balance": 270.00,
+      "deposit": 500.00,
+      "email": "amadeus.mozart@example.com",
+      "phone": "+1 (555) 836-2194"
+    },
+    {
+      "id": 3,
+      "name": "John Krauz",
+      "accountId": "98756431201",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Sed euismod.",
+      "status": "open",
+      "rate": 70.00,
+      "balance": -20.00,
+      "deposit": 500.00,
+      "email": "john.krauz@example.com",
+      "phone": "+1 (555) 987-5643"
+    },
+    {
+      "id": 4,
+      "name": "Oliver Bennett",
+      "accountId": "12348756390",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Sed euismod.",
+      "status": "inactive",
+      "rate": 70.00,
+      "balance": 0.00,
+      "deposit": 500.00,
+      "email": "oliver.bennett@example.com",
+      "phone": "+1 (555) 123-4875"
+    },
+    {
+      "id": 5,
+      "name": "Ethan Parker",
+      "accountId": "09863451782",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Sed euismod.",
+      "status": "open",
+      "rate": 70.00,
+      "balance": -270.00,
+      "deposit": 500.00,
+      "email": "ethan.parker@example.com",
+      "phone": "+1 (555) 098-6345"
+    },
+    {
+      "id": 6,
+      "name": "Liam Foster",
+      "accountId": "23451678904",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Sed euismod.",
+      "status": "paid",
+      "rate": 70.00,
+      "balance": -270.00,
+      "deposit": 500.00,
+      "email": "liam.foster@example.com",
+      "phone": "+1 (555) 234-5167"
+    },
+    {
+      "id": 7,
+      "name": "Ava Mitchell",
+      "accountId": "56781234650",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Sed euismod.",
+      "status": "due",
+      "rate": 70.00,
+      "balance": 30.05,
+      "deposit": 500.00,
+      "email": "ava.mitchell@example.com",
+      "phone": "+1 (555) 567-8123"
+    },
+    {
+      "id": 8,
+      "name": "Noah Reynolds",
+      "accountId": "88674523190",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Sed euismod.",
+      "status": "open",
+      "rate": 70.00,
+      "balance": -270.00,
+      "deposit": 500.00,
+      "email": "noah.reynolds@example.com",
+      "phone": "+1 (555) 886-7452"
+    },
+    {
+      "id": 9,
+      "name": "Mason Carter",
+      "accountId": "56783245648",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Sed euismod.",
+      "status": "inactive",
+      "rate": 70.00,
+      "balance": 460.00,
+      "deposit": 500.00,
+      "email": "mason.carter@example.com",
+      "phone": "+1 (555) 567-8324"
+    },
+    {
+      "id": 10,
+      "name": "Charlotte Evans",
+      "accountId": "34219867053",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Sed euismod.",
+      "status": "due",
+      "rate": 70.00,
+      "balance": -155.00,
+      "deposit": 500.00,
+      "email": "charlotte.evans@example.com",
+      "phone": "+1 (555) 342-1986"
+    },
+    {
+      "id": 11,
+      "name": "Vinh Vu",
+      "accountId": "82642018235",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Sed euismod.",
+      "status": "due",
+      "rate": 70.00,
+      "balance": 155.00,
+      "deposit": 500.00,
+      "email": "vinh.vu@example.com",
+      "phone": "+1 (555) 342-1986"
+    }
+  ]
+}

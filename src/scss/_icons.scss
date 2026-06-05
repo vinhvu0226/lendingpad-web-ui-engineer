@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'DashboardIcons';
+  src: url('/fonts/icons.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* Use !important to prevent issues with third-party typography resets */
+  font-family: 'DashboardIcons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better web font rendering optimization */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-add {
+  &::before { content: "\e900"; }
+}
+.icon-search {
+  &::before { content: "\e901"; }
+}
+.icon-invite {
+  &::before { content: "\e902"; }
+}
+.icon-cost {
+  &::before { content: "\e903"; }
+}
+.icon-email {
+  &::before { content: "\e904"; }
+}
+.icon-filter {
+  &::before { content: "\e905"; }
+}
+.icon-pencil {
+  &::before { content: "\e906"; }
+}
+.icon-actions {
+  &::before { content: "\e907"; }
+}
+.icon-up-sort {
+  &::before { content: "\e908"; }
+}
+.icon-down-sort {
+  &::before { content: "\e909"; }
+}

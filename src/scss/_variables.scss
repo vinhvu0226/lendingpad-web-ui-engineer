@@ -1,0 +1,38 @@
+// src/scss/_variables.scss
+
+// 1. Color Palette
+$color-primary:       #3D70D2; // The bright blue "Add User" button
+$color-bg-white:      #FFFFFF; // Card/Table background
+$color-border:        #E9EDF5; // Table row dividers
+
+// Status Colors
+$color-open:          #496EE9;
+$color-open-bg:       #E4F1FF;
+$color-paid:          #14804A;
+$color-paid-bg:       #E1FCEF;
+$color-due:           #E20038;
+$color-due-bg:        #FAF0F3;
+$color-inactive:      #5A6376;
+$color-inactive-bg:   #E9EDF5;
+
+// Text Colors
+$color-text-main:     #171C26; // Dark gray for names
+$color-text-medium:   #464F60; // Lighter gray for subtext
+$color-text-muted:    #687182; // Lighter gray for subtext
+
+// 2. Typography
+$font-main:           'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+$font-size-base:      14px;
+
+// 3. Layout Tokens
+$radius-sm:           4px;
+$radius-md:           8px;
+$radius-round:        12px; // For status badges
+
+// 4. Semantic Aliases
+$color-bg-main:       #F5F7FA; // Page background
+$color-text-negative: $color-due; // Red for negative balances
+
+// 5. Breakpoints
+$bp-mobile:           480px;
+$bp-tablet:           768px;
