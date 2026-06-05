@@ -10,8 +10,6 @@ const mockRecord = {
   rate: 5.0,
   balance: 1000,
   deposit: 200,
-  email: 'alice@example.com',
-  phone: '555-0001',
 }
 
 function mockFetch(ok: boolean, data?: unknown): void {

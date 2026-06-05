@@ -28,18 +28,6 @@ export function drawerTemplate(): string {
                 <input type="text" id="drawer-full-name" name="fullName" class="form-field__input"
                   autocomplete="name" required placeholder="Enter full name">
               </div>
-              <div class="form-field">
-                <label class="form-field__label" for="drawer-email">
-                  Email Address <span class="form-field__required" aria-label="required">*</span>
-                </label>
-                <input type="email" id="drawer-email" name="email" class="form-field__input"
-                  autocomplete="email" required placeholder="name@example.com">
-              </div>
-              <div class="form-field">
-                <label class="form-field__label" for="drawer-phone">Phone Number</label>
-                <input type="tel" id="drawer-phone" name="phone" class="form-field__input"
-                  autocomplete="tel" placeholder="+1 (555) 000-0000">
-              </div>
               <div class="form-field form-field--readonly">
                 <label class="form-field__label" for="drawer-account-id">Account ID</label>
                 <input type="text" id="drawer-account-id" class="form-field__input" readonly>

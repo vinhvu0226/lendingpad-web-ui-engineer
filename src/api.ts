@@ -7,8 +7,6 @@ export interface LoanRecord {
   rate: number
   balance: number
   deposit: number
-  email: string
-  phone: string
 }
 
 export async function getRecords(): Promise<LoanRecord[]> {
