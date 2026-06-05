@@ -2,8 +2,9 @@ import type { LoanRecord } from '../api.ts'
 import { fmt, cap } from './format.ts'
 
 const DIFF_FIELDS: Array<{ key: keyof LoanRecord; label: string }> = [
-  { key: 'name',    label: 'Full Name' },
-  { key: 'status',  label: 'Account Status' },
+  { key: 'name',        label: 'Full Name' },
+  { key: 'description', label: 'Description' },
+  { key: 'status',      label: 'Account Status' },
   { key: 'rate',    label: 'Monthly Rate (CAD)' },
   { key: 'balance', label: 'Current Balance (CAD)' },
   { key: 'deposit', label: 'Deposit Amount (CAD)' },

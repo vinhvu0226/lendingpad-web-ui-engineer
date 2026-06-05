@@ -34,6 +34,11 @@ export function drawerTemplate(): string {
                 <span class="form-field__hint">System-generated — cannot be edited.</span>
               </div>
               <div class="form-field">
+                <label class="form-field__label" for="drawer-description">Description</label>
+                <textarea id="drawer-description" name="description" class="form-field__textarea"
+                  placeholder="Enter description" rows="3"></textarea>
+              </div>
+              <div class="form-field">
                 <label class="form-field__label" for="drawer-status">Account Status</label>
                 <select id="drawer-status" name="status" class="form-field__select">
                   <option value="open">Open</option>

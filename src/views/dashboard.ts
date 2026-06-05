@@ -337,7 +337,7 @@ export function closeDrawer(): void {
 }
 
 function clearDrawer(): void {
-  const fields = ['drawer-full-name', 'drawer-account-id',
+  const fields = ['drawer-full-name', 'drawer-account-id', 'drawer-description',
                   'drawer-rate', 'drawer-balance', 'drawer-deposit']
   fields.forEach(id => {
     const el = document.getElementById(id) as HTMLInputElement | null
@@ -355,6 +355,7 @@ function populateDrawer(record: LoanRecord): void {
   }
   set('drawer-full-name',  record.name)
   set('drawer-account-id', record.accountId)
+  set('drawer-description', record.description)
   set('drawer-rate',       String(record.rate))
   set('drawer-balance',    String(record.balance))
   set('drawer-deposit',    String(record.deposit))
@@ -368,11 +369,13 @@ function collectDrawer(): Partial<LoanRecord> {
     (document.getElementById(id) as HTMLInputElement | HTMLSelectElement | null)
       ?.value.trim() ?? ''
   return {
-    name:    val('drawer-full-name'),
-    rate:    parseFloat(val('drawer-rate')),
-    balance: parseFloat(val('drawer-balance')),
-    deposit: parseFloat(val('drawer-deposit')),
-    status:  val('drawer-status') as LoanRecord['status'],
+    name:        val('drawer-full-name'),
+    accountId:   val('drawer-account-id'),
+    description: val('drawer-description'),
+    rate:        parseFloat(val('drawer-rate')),
+    balance:     parseFloat(val('drawer-balance')),
+    deposit:     parseFloat(val('drawer-deposit')),
+    status:      val('drawer-status') as LoanRecord['status'],
   }
 }
 
