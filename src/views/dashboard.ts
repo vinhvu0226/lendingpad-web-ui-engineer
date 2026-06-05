@@ -103,6 +103,8 @@ export async function mount(): Promise<void> {
   const tbody = document.querySelector<HTMLTableSectionElement>('.data-table__body')
   if (!tbody) return
 
+  searchQuery = ''
+
   try {
     cachedRecords = await getRecords()
     setupMasterCheckbox()
@@ -136,11 +138,9 @@ function getFilteredRecords(): LoanRecord[] {
   const q = searchQuery.toLowerCase()
   return cachedRecords.filter(r =>
     r.name.toLowerCase().includes(q)        ||
-    r.email.toLowerCase().includes(q)       ||
     r.accountId.toLowerCase().includes(q)   ||
     r.description.toLowerCase().includes(q) ||
-    r.status.toLowerCase().includes(q)      ||
-    r.phone.toLowerCase().includes(q)
+    r.status.toLowerCase().includes(q)
   )
 }
 
@@ -337,8 +337,8 @@ export function closeDrawer(): void {
 }
 
 function clearDrawer(): void {
-  const fields = ['drawer-full-name', 'drawer-email', 'drawer-phone',
-                  'drawer-account-id', 'drawer-rate', 'drawer-balance', 'drawer-deposit']
+  const fields = ['drawer-full-name', 'drawer-account-id',
+                  'drawer-rate', 'drawer-balance', 'drawer-deposit']
   fields.forEach(id => {
     const el = document.getElementById(id) as HTMLInputElement | null
     if (el) { el.value = ''; el.classList.remove('form-field__input--error') }
@@ -354,8 +354,6 @@ function populateDrawer(record: LoanRecord): void {
     if (el) el.value = value
   }
   set('drawer-full-name',  record.name)
-  set('drawer-email',      record.email)
-  set('drawer-phone',      record.phone)
   set('drawer-account-id', record.accountId)
   set('drawer-rate',       String(record.rate))
   set('drawer-balance',    String(record.balance))
@@ -371,8 +369,6 @@ function collectDrawer(): Partial<LoanRecord> {
       ?.value.trim() ?? ''
   return {
     name:    val('drawer-full-name'),
-    email:   val('drawer-email'),
-    phone:   val('drawer-phone'),
     rate:    parseFloat(val('drawer-rate')),
     balance: parseFloat(val('drawer-balance')),
     deposit: parseFloat(val('drawer-deposit')),

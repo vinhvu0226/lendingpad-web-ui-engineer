@@ -8,9 +8,7 @@
       "status": "open",
       "rate": 70.00,
       "balance": -270.00,
-      "deposit": 500.00,
-      "email": "alex.smith@example.com",
-      "phone": "+1 (555) 437-0284"
+      "deposit": 500.00
     },
     {
       "id": 2,
@@ -20,9 +18,7 @@
       "status": "paid",
       "rate": 70.00,
       "balance": 270.00,
-      "deposit": 500.00,
-      "email": "amadeus.mozart@example.com",
-      "phone": "+1 (555) 836-2194"
+      "deposit": 500.00
     },
     {
       "id": 3,
@@ -32,9 +28,7 @@
       "status": "open",
       "rate": 70.00,
       "balance": -20.00,
-      "deposit": 500.00,
-      "email": "john.krauz@example.com",
-      "phone": "+1 (555) 987-5643"
+      "deposit": 500.00
     },
     {
       "id": 4,
@@ -44,9 +38,7 @@
       "status": "inactive",
       "rate": 70.00,
       "balance": 0.00,
-      "deposit": 500.00,
-      "email": "oliver.bennett@example.com",
-      "phone": "+1 (555) 123-4875"
+      "deposit": 500.00
     },
     {
       "id": 5,
@@ -56,9 +48,7 @@
       "status": "open",
       "rate": 70.00,
       "balance": -270.00,
-      "deposit": 500.00,
-      "email": "ethan.parker@example.com",
-      "phone": "+1 (555) 098-6345"
+      "deposit": 500.00
     },
     {
       "id": 6,
@@ -68,9 +58,7 @@
       "status": "paid",
       "rate": 70.00,
       "balance": -270.00,
-      "deposit": 500.00,
-      "email": "liam.foster@example.com",
-      "phone": "+1 (555) 234-5167"
+      "deposit": 500.00
     },
     {
       "id": 7,
@@ -80,9 +68,7 @@
       "status": "due",
       "rate": 70.00,
       "balance": 30.05,
-      "deposit": 500.00,
-      "email": "ava.mitchell@example.com",
-      "phone": "+1 (555) 567-8123"
+      "deposit": 500.00
     },
     {
       "id": 8,
@@ -92,9 +78,7 @@
       "status": "open",
       "rate": 70.00,
       "balance": -270.00,
-      "deposit": 500.00,
-      "email": "noah.reynolds@example.com",
-      "phone": "+1 (555) 886-7452"
+      "deposit": 500.00
     },
     {
       "id": 9,
@@ -104,9 +88,7 @@
       "status": "inactive",
       "rate": 70.00,
       "balance": 460.00,
-      "deposit": 500.00,
-      "email": "mason.carter@example.com",
-      "phone": "+1 (555) 567-8324"
+      "deposit": 500.00
     },
     {
       "id": 10,
@@ -116,9 +98,7 @@
       "status": "due",
       "rate": 70.00,
       "balance": -155.00,
-      "deposit": 500.00,
-      "email": "charlotte.evans@example.com",
-      "phone": "+1 (555) 342-1986"
+      "deposit": 500.00
     },
     {
       "id": 11,
@@ -128,9 +108,7 @@
       "status": "due",
       "rate": 70.00,
       "balance": 155.00,
-      "deposit": 500.00,
-      "email": "vinh.vu@example.com",
-      "phone": "+1 (555) 342-1986"
+      "deposit": 500.00
     }
   ]
 }

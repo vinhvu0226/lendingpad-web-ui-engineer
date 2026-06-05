@@ -17,8 +17,6 @@ const mockRecords = Array.from({ length: 5 }, (_, i) => ({
   rate: 5.0,
   balance: i === 2 ? -500 : 1000,
   deposit: 200,
-  email: `user${i + 1}@example.com`,
-  phone: '555-0001',
 }))
 
 const mockRecord = mockRecords[0]
@@ -228,7 +226,6 @@ describe('drawer', () => {
     editBtn.click()
     await new Promise(resolve => setTimeout(resolve, 0))
     expect((document.getElementById('drawer-full-name') as HTMLInputElement).value).toBe('User 1')
-    expect((document.getElementById('drawer-email') as HTMLInputElement).value).toBe('user1@example.com')
     expect((document.getElementById('drawer-account-id') as HTMLInputElement).value).toBe('ACC-001')
   })
 
@@ -416,10 +413,6 @@ describe('search', () => {
     expect(document.querySelector('.data-table__body')?.textContent).toContain('xyznonexistent')
   })
 
-  it('matches on email field', () => {
-    type('user3@example.com')
-    expect(document.querySelectorAll('.data-table__body .data-table__row').length).toBe(1)
-  })
 })
 
 // ── drawer loading state ───────────────────────────────────────────────────────

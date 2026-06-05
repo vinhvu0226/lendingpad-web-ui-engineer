@@ -3,8 +3,6 @@ import { fmt, cap } from './format.ts'
 
 const DIFF_FIELDS: Array<{ key: keyof LoanRecord; label: string }> = [
   { key: 'name',    label: 'Full Name' },
-  { key: 'email',   label: 'Email Address' },
-  { key: 'phone',   label: 'Phone Number' },
   { key: 'status',  label: 'Account Status' },
   { key: 'rate',    label: 'Monthly Rate (CAD)' },
   { key: 'balance', label: 'Current Balance (CAD)' },
